@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Karma Future';
+    src: url('karma_future.ttf');
+}
+
+.button {
+
+    -fx-font-family: "Karma Future";
+    -fx-font-size: 20px;
+    -fx-background-color: #ffee78;
+    -fx-background-radius: 15px;
+    -fx-text-fill: red;
+    -fx-border-radius: 15px;
+    -fx-border-color: rgba(255, 145, 33, 0.87);
+    -fx-border-width: 2px;
+    -fx-border-style: none;
+    -fx-padding: 5px 25px;
+    -fx-max-width: 250px;
+    -fx-min-width: 130px;
+    -fx-effect: dropshadow(three-pass-box, purple, 10, 0, 0, 5);
+
+}
+.volumebutton {
+	-fx-max-height: 1px;
+	-fx-min-height: 1px;
+	-fx-max-width : 1px;
+   	 -fx-min-width: 1px;
+}
+.button:hover {
+    -fx-background-color: #1861ff;
+    -fx-text-fill: #0d100f;
+}
+.button:pressed {
+    -fx-effect: dropshadow(three-pass-box, purple, 10, 0, 0, 4);
+    -fx-padding: 4px 23px;
+}
+.button:focused {
+
+}
+.label {
+    -fx-font-family: "Karma Future";
+    -fx-text-fill: white;
+    -fx-padding: 5.0 10.0 5.0 10.0;
+    -fx-font-weight: bold;
+    -fx-font-size:  15.0px;
+    -fx-effect:dropshadow( three-pass-box , rgba(0.0,0.0,0.0,0.6) , 5.0, 0.0 , 0.0 , 1.0 ) ;
+}
+#helpPanel{
+    -fx-font-family: "Karma Future";
+    -fx-text-fill: #0d100f;
+    -fx-font-size: 20px;
+}
+#panel{
+    -fx-background-color: #dffffd;
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+#levelPanel{
+    -fx-font-family: "Karma Future";
+    -fx-font-size: 20px;
+    -fx-background-color: #cbffa8;
+    -fx-background-radius: 15px;
+    -fx-text-fill: #0b0cff;
+    -fx-border-radius: 15px;
+    -fx-border-color: rgba(134, 255, 37, 0.87);
+    -fx-border-width: 2px;
+    -fx-border-style: none;
+    -fx-padding: 7px 35px;
+    -fx-max-width: 350px;
+    -fx-min-width: 200px;
+    -fx-effect: dropshadow(three-pass-box, #79ffc8, 10, 0, 0, 5);
+}
+#levelPanel:hover {
+    -fx-background-color: #ff7656;
+    -fx-text-fill: #073946;
+}
+#levelPanel:pressed {
+    -fx-effect: dropshadow(three-pass-box, #79ffc8, 10, 0, 0, 4);
+    -fx-padding: 5px 33px;
+}
+
+#state{
+    -fx-font-family: "Karma Future";
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 40px;
+}
+#title{
+    -fx-font-family: "Karma Future";
+    -fx-text-fill: #4d06ae;
+    -fx-font-size: 40px;
+}
+#titleGameOver{
+    -fx-font-family: "Karma Future";
+    -fx-text-fill: #280002;
+    -fx-font-size: 50px;
+}
+#coinPlayer{
+    -fx-font-family: "Karma Future";
+    -fx-font-size: 23px;
+    -fx-text-fill: yellow;
+}
+#levelPlayer{
+    -fx-font-family: "Karma Future";
+    -fx-font-size: 26px;
+    -fx-text-fill: #2f5bff;
+}
+#infoTower{
+    -fx-font-family: Consolas;
+    -fx-font-size: 16px;
+    -fx-text-fill: blue;
+}
+#nameTower{
+    -fx-font-size: 25px;
+    -fx-font-family: "Karma Future";
+    -fx-text-fill: #a2290b;
+}
